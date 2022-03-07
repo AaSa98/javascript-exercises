@@ -1,4 +1,4 @@
-function removeFromArray(arr1, ele) {
+function removeFromArray(arr1) {
     let args = [...arguments];
     args.shift();
     for(const element of args){
