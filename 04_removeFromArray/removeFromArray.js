@@ -1,6 +1,8 @@
 function removeFromArray(arr1, ele) {
-    for(const element of arr1){
-        if(element == ele){
+    let args = [...arguments];
+    args.shift();
+    for(const element of args){
+        if(arr1.includes(element)){
            const i = arr1.indexOf(element);
            arr1.splice(i, 1);
         }
