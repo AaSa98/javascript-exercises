@@ -1,6 +1,6 @@
 function fibonacci(nmr) {
   //einfachste Version ist fib(1) = 1 & fib(2) = 1
-  nmr = parseInt(nmr)
+  nmr = parseInt(nmr);
   if (nmr < 0) {
     return "OOPS";
   } else if (nmr == 1 || nmr == 2) {
